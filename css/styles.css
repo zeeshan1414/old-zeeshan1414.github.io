@@ -1,9 +1,11 @@
+/******************************** TAG SELECTORS ***************************/
+
 body {
   background-color: #eaf6f6;
 }
 hr {
   border-style: dotted none none;
-  width: 5%;
+  width: 10%;
   border-color: grey;
   border-width: 5px;
 }
@@ -13,5 +15,20 @@ h1 {
 }
 
 h3 {
-  color: #66bfbf;
+  color: #2f89fc;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+/************************ CLASS SELECTORS ***********************/
+
+/************************ ID SELECTORS ************************/
+#profile-pic {
+  border-radius: 100%;
+}
+
+#contact-me {
+  color: #df4d19;
 }
